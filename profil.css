@@ -317,11 +317,12 @@ article {
     padding-bottom: 2vw;
 }
 .isiAbout{
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
     background-color: #eabcac;
     display : flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 0.6px solid #e2b091;
 }
 
 .isiAbout p, img{
@@ -354,6 +355,52 @@ article {
     color :#8f6c61;
 }
 
+.about p {
+    background-color: #eabcac;
+    font-size: 2.4vw;
+    font-weight: bold;
+}
+#listFavorite {
+    background-color: #eabcac;
+}
+
+#listFavorite img {
+    width : 7vw;
+    border-radius: 0.4vw;
+    margin: 2vw 2vw 0vw 2vw;
+}
+
+#listFavorite a{
+    background-color: #eabcac;
+    font-size: 2vw;
+}
+
+#playist {
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #eabcac;
+}
+
+#video {
+    display : flex;
+    justify-content: flex-start;
+    padding-bottom: 2vw;
+    align-items: center;
+    background-color: #eabcac;
+}
+
+#listSkill {
+    background-color: #eabcac;
+    padding-left: 4vw;
+    padding-bottom: 2vw;
+}
+
+#listSkill li{
+    background-color: #eabcac;
+    font-size: 1.6vw;
+    list-style: circle;
+}
 /* footer */
 footer {
     padding : 1vw 2vw;
