@@ -420,11 +420,11 @@ article {
 footer {
     padding : 0vw 2vw 0vw 2vw;
     background-color: black;
-    height : 14vw;
+    height : 16vw;
     width : 100%;
     position : relative;
-    bottom : 0;
     margin-top: auto;
+    margin-bottom: 0;
 }
 
 footer h3{
