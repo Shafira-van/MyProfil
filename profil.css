@@ -198,6 +198,11 @@ article {
     
 }
 
+#flexBlog {
+    background-color: #e2b091; 
+    display : flex;
+    justify-content: space-between;
+}
 #listBlog p,h4 {
     background-color: #e2b091; 
     font-size: 1.4vw;   
@@ -207,17 +212,15 @@ article {
     background-color: #e2b091; 
     text-decoration: underline;
     color : #32485c;
-    display : inline-block;
-    width : 85%;
+
 }
 
 #listBlog span{ 
     background-color: #e2b091;
     color   : #32485c;
-    right   : 0;
     font-weight: bold;
     font-size: 1.2vw; 
-    margin-right: 0vw;
+    margin-right: 1vw;
 }
 
 #listBlog i{ 
@@ -273,6 +276,12 @@ article {
     padding : 0 2vw 1vw 2vw;
 }
 
+#projectBlog {
+    background-color: #e2b091; 
+    display : flex;
+    justify-content: space-between;
+}
+
 #listProject p{
     background-color: #e2b091;  
     font-size: 1.4vw;
@@ -283,17 +292,15 @@ article {
     text-decoration: underline;
     background-color: #e2b091;
     color : #32485c;
-    display : inline-block;
-    width : 85%;
-    padding-bottom: 0.2vw;
+    font-size: 1.4vw;
 }
 
 #listProject span{ 
     background-color: #e2b091;
     color   : #32485c;
-    right   : 0;
     font-weight: bold;
     font-size: 1.2vw;
+    margin-right: 1vw;
 }
 
 #listProject i{ 
@@ -411,9 +418,9 @@ article {
 }
 /* footer */
 footer {
-    padding : 0vw 2vw 4vw 2vw;
+    padding : 0vw 2vw 0vw 2vw;
     background-color: black;
-    height : 12vw;
+    height : 14vw;
     width : 100%;
     position : relative;
     bottom : 0;
