@@ -10,13 +10,17 @@ font-family: 'Poppins', sans-serif; */
     text-decoration: none;
     color : #32485c;
     background-color: #fcdfd4;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif; 
 }
 
+html,body {
+    height : 100%;
+}
 body {
     background-image: url(https://raw.githubusercontent.com/Shafira-van/MyProfil/main/img/bg.png);
     object-fit : cover;
+    display : flex;
+    flex-direction: column;
 }
 /* nav */
 nav {
@@ -88,7 +92,7 @@ header {
     
     background-color:#eabcac;
     width :83vw;
-    height: 40%;
+    height: 18vw;
     margin : 0 0 0 8%;
     padding : 6vw 0vw 6vw 0vw;  
     border-bottom: 1px solid #e2b091;
@@ -140,8 +144,8 @@ header {
 }
 
 .header img{
-    width: 25vw;
-    height : 25vw;
+    width: 20%;
+    object-fit: cover;
     background-color: #eabcac;
     padding-right: 10vw;
 }
@@ -151,6 +155,7 @@ article {
     background-color:#eabcac;
     width :83vw;
     margin : 0 0 0 8%;
+    
 }
 
 /* blog */
@@ -309,6 +314,7 @@ article {
 .about {
     margin : 0vw 6vw 2.4vw 6vw;
     background-color: #eabcac;
+    
 }
 
 .about h3{
@@ -322,7 +328,6 @@ article {
     display : flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 0.6px solid #e2b091;
 }
 
 .isiAbout p, img{
@@ -403,19 +408,21 @@ article {
 }
 /* footer */
 footer {
-    padding : 1vw 2vw;
+    padding : 0vw 2vw 4vw 2vw;
     background-color: black;
-    height : 20vw;
+    height : 12vw;
+    width : 100%;
+    position : relative;
+    bottom : 0;
+    margin-top: auto;
 }
 
 footer h3{
-    font-size: 3vw;
-    padding : 1vw 0 0vw 0vw;
+    font-size: 2vw;
     text-align: center;
 }
 footer h4{
-    font-size: 1.4vw;
-    padding : 0.2vw 0 1vw 0vw;
+    font-size: 1vw;
     text-align: center;
 }
 
@@ -423,13 +430,12 @@ footer h4{
     background-color: black;
     display : flex;
     justify-content: center;
-
 }
 
 .imgSosmed li{
     background-color: black;
     text-align: center ;
-    padding : 0 4vw;
+    padding : 0 vw;
 }
 
 footer h3,h4 {
@@ -439,11 +445,18 @@ footer h3,h4 {
 
 .imgSosmed a{
     background-color: black;
+    margin: 0;
+    padding : 0;
 }
 .imgSosmed p{
     background-color: black;
     color : white;
-    border-radius: 2vw;
+    border-radius: 4vw;
+    font-size: 1vw;
+    margin-top: 0vw;
+    width: 8vw;
+    height :1.6vw;
+    margin-left: 12.4vw;
 }
 
 .imgSosmed p:hover {
@@ -452,8 +465,8 @@ footer h3,h4 {
 }
 .imgSosmed img{
     background-color: black;
-    width : 8vw;
-    padding : 0vw;
+    width : 20%;
+    margin-top: 0vw;
 }
 
 
