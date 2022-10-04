@@ -52,6 +52,7 @@ nav li a{
     margin : 0px 0.6vw;
     padding : 0.6vw 1vw;
     border-radius: 20px;
+    font-size: 2vw;
 }
 
 .navText li a:hover{    
@@ -190,7 +191,7 @@ article {
     border-radius: 2vw;
     background-color: #e2b091; 
     margin-bottom : 1vw;
-    padding : 0 2vw 0 2vw;
+    padding : 0vw 2vw 1vw 2vw;
     
 }
 
@@ -205,7 +206,6 @@ article {
     color : #32485c;
     display : inline-block;
     width : 85%;
-    padding-bottom: 0.2vw;
 }
 
 #listBlog span{ 
@@ -267,7 +267,7 @@ article {
     border-radius: 2vw;
     background-color: #e2b091; 
     margin-bottom : 1vw;
-    padding : 0 2vw 0 2vw;
+    padding : 0 2vw 1vw 2vw;
 }
 
 #listProject p{
